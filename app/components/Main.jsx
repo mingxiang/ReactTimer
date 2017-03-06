@@ -3,9 +3,13 @@ import Nav from 'Nav';
 
 let Main = props => (
   <div>
-    <p>Main.jsx Rendered</p>
     <Nav/>
-    {props.children}
+    <div className="row">
+      <div className="column small-centered medium-6 large-4">
+        {props.children}
+      </div>
+    </div>
+
   </div>
 );
 
